@@ -1,0 +1,113 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import numpy as np
+import tensorflow as tf
+from keras.models import Model
+from keras.layers import Dense, Input, Concatenate
+import keras.backend as K
+from tensorflow.python.framework.ops import disable_eager_execution
+disable_eager_execution()
+
+def brute_force_knapsack(x_weights, x_values, x_capacity):
+    item_count = x_weights.shape[0] #gets the number of dimensions in the array
+    picks_space = 2 ** item_count #the number of possibilities O(2^n)
+    best_value = -1
+    best_picks = np.zeros(item_count)
+
+    for p in range(picks_space):
+        picks = [int(c) for c in f"{p:0{item_count}b}"]
+        value = np.dot(x_values, picks)
+        weight = np.dot(x_weights, picks)
+        if weight <= x_capacity and value > best_value:
+            best_value = value
+            best_picks = picks
+    return best_picks
+
+def create_knapsack(item_count=5):
+    x_weights = np.random.randint(10, 45, item_count)
+    x_values = np.random.randint(10, 99, item_count)
+    x_capacity = np.random.randint(40, 70)
+    y_picks = brute_force_knapsack(x_weights, x_values, x_capacity)
+    return x_weights, x_values, x_capacity, y_picks
+
+def create_knapsack_dataset(count, item_count=5):
+    x = [[], [], []]
+    y = [[]]
+    for _ in range(count):
+        x_weights, x_values, x_capacity, y_picks = create_knapsack(item_count)
+        x[0].append(x_weights)
+        x[1].append(x_values)
+        x[2].append(x_capacity)
+        y[0].append(y_picks)
+    return x, y
+
+def custom_accuracy(y_true, y_pred):
+    y_pred_rounded = tf.round(y_pred)
+    y_pred_binary = tf.clip_by_value(y_pred_rounded, 0, 1)
+    return tf.keras.backend.mean(K.equal(y_true, y_pred_binary))
+
+#Calculates the percentage of times the model violated the limit
+def metric_space_violation(input_weights, input_capacity):
+    def space_violation(y_true, y_pred):
+        picks = tf.round(y_pred)
+        picks = tf.clip_by_value(picks, 0, 1)
+        dot_product = K.batch_dot(picks, input_weights) #gets the total weight
+        mask = K.greater(dot_product, input_capacity) #checks if there is a space violation
+        mask = K.cast(mask, tf.float32)
+        return K.mean(mask)
+    return space_violation
+
+def supervised_model(item_count=5):
+    input_weights = Input((item_count,), name="Weights")
+    input_values = Input((item_count,), name="Values")
+    input_capacity = Input((1,), name="Capacity")
+    inputs_concat = Concatenate(name="Concatenate")([input_weights, input_values,input_capacity])
+
+    h1 = Dense(item_count * 30, activation="sigmoid", name="Hidden1")(inputs_concat)
+    h2 = Dense(item_count * 30, activation="sigmoid", name="Hidden2")(h1)
+    h3 = Dense(item_count * 30, activation="sigmoid", name="Hidden3")(h2)
+    h4 = Dense(item_count * 30, activation="sigmoid", name="Hidden4")(h3)
+    h5 = Dense(item_count * 30, activation="sigmoid", name="Hidden5")(h4)
+    h6 = Dense(item_count * 30, activation="sigmoid", name="Hidden6")(h5)
+    h7 = Dense(item_count * 30, activation="sigmoid", name="Hidden7")(h6)
+
+    picks = Dense(item_count, activation="sigmoid", name="Output")(h7)
+    model = Model(inputs=[input_weights, input_values,input_capacity], outputs=[picks])
+
+    model.compile("adam", tf.keras.losses.binary_crossentropy,
+                  metrics=[custom_accuracy, metric_space_violation(input_weights,input_capacity)])
+    return model
+
+def train_knapsack(model, train_x, train_y):
+    model.fit(train_x, train_y, epochs=100, verbose=1)
+    return model
+
+def model_evaluation(model, test_x, test_y):
+
+    train_results = model.evaluate(train_x, train_y, batch_size=64, verbose=0)
+    test_results = model.evaluate(test_x, test_y, batch_size=64, verbose=0)
+
+    print("Model results(Train/Test):")
+    print(f"Loss:               {train_results[0]:.2f} / {test_results[0]:.2f}")
+    print(f"Binary accuracy:    {train_results[1]:.2f} / {test_results[1]:.2f}")
+    print(f"Space violation:    {train_results[2]:.2f} / {test_results[2]:.2f}")
+
+train_x, train_y = create_knapsack_dataset(8000)
+test_x, test_y = create_knapsack_dataset(2000)
+supervised_model = supervised_model()
+model_results = train_knapsack(supervised_model, train_x, train_y)
+model_evaluation(model_results,test_x, test_y)
+
+sess = tf.compat.v1.Session()
+for _ in range (50):
+    x_weights, x_values, x_capacity, y_picks = create_knapsack()
+    max_value = np.dot(x_values, y_picks)
+    print("Weights:",x_weights,"Values:",x_values,"Capacity:",x_capacity,
+          "Bruteforce Picks:",y_picks,"Max Value (Optimal):",max_value)
+    x = [[x_weights], [x_values], [x_capacity]]
+    prediction = supervised_model.predict(x)
+    prediction = tf.round(prediction)
+    prediction = tf.clip_by_value(prediction, 0, 1)
+    predictionF = prediction.eval(session=sess)
+    max_value = np.dot(x_values, predictionF[0])
+    print("Model Prediction:",predictionF,"Max Value (Model):",max_value)
