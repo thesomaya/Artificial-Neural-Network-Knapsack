@@ -110,4 +110,4 @@ for _ in range (50):
     prediction = tf.clip_by_value(prediction, 0, 1)
     predictionF = prediction.eval(session=sess)
     max_value = np.dot(x_values, predictionF[0])
-    print("Model Prediction:",predictionF,"Max Value (Model):",max_value)
+    print("Model Prediction:",predictionF[0],"Max Value (Model):",max_value)
