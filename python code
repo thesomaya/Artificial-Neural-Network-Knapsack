@@ -92,8 +92,8 @@ def model_evaluation(model, test_x, test_y):
     print(f"Binary accuracy:    {train_results[1]:.2f} / {test_results[1]:.2f}")
     print(f"Space violation:    {train_results[2]:.2f} / {test_results[2]:.2f}")
 
-train_x, train_y = create_knapsack_dataset(8000)
-test_x, test_y = create_knapsack_dataset(2000)
+train_x, train_y = create_knapsack_dataset(80000)
+test_x, test_y = create_knapsack_dataset(20000)
 supervised_model = supervised_model()
 model_results = train_knapsack(supervised_model, train_x, train_y)
 model_evaluation(model_results,test_x, test_y)
