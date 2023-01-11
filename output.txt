@@ -1,0 +1,309 @@
+Train on 80000 samples
+Epoch 1/100
+80000/80000 [==============================] - 5s 66us/sample - loss: 0.5154 - custom_accuracy: 0.7271 - space_violation: 0.2699
+Epoch 2/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.4004 - custom_accuracy: 0.8144 - space_violation: 0.3063
+Epoch 3/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.3737 - custom_accuracy: 0.8283 - space_violation: 0.2471
+Epoch 4/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.3559 - custom_accuracy: 0.8358 - space_violation: 0.2387
+Epoch 5/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.3483 - custom_accuracy: 0.8387 - space_violation: 0.2418
+Epoch 6/100
+80000/80000 [==============================] - 6s 78us/sample - loss: 0.3414 - custom_accuracy: 0.8419 - space_violation: 0.2377
+Epoch 7/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.3336 - custom_accuracy: 0.8456 - space_violation: 0.2328
+Epoch 8/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.3235 - custom_accuracy: 0.8502 - space_violation: 0.2249
+Epoch 9/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.3128 - custom_accuracy: 0.8556 - space_violation: 0.2143
+Epoch 10/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.3017 - custom_accuracy: 0.8614 - space_violation: 0.2023
+Epoch 11/100
+80000/80000 [==============================] - 5s 62us/sample - loss: 0.2905 - custom_accuracy: 0.8677 - space_violation: 0.1898
+Epoch 12/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.2797 - custom_accuracy: 0.8733 - space_violation: 0.1752
+Epoch 13/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.2680 - custom_accuracy: 0.8786 - space_violation: 0.1685
+Epoch 14/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.2572 - custom_accuracy: 0.8842 - space_violation: 0.1617
+Epoch 15/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.2466 - custom_accuracy: 0.8896 - space_violation: 0.1504
+Epoch 16/100
+80000/80000 [==============================] - 5s 63us/sample - loss: 0.2381 - custom_accuracy: 0.8943 - space_violation: 0.1422
+Epoch 17/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.2293 - custom_accuracy: 0.8984 - space_violation: 0.1373
+Epoch 18/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.2208 - custom_accuracy: 0.9021 - space_violation: 0.1316
+Epoch 19/100
+80000/80000 [==============================] - 5s 63us/sample - loss: 0.2144 - custom_accuracy: 0.9058 - space_violation: 0.1252
+Epoch 20/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.2094 - custom_accuracy: 0.9079 - space_violation: 0.1192
+Epoch 21/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.2039 - custom_accuracy: 0.9105 - space_violation: 0.1164
+Epoch 22/100
+80000/80000 [==============================] - 5s 67us/sample - loss: 0.1995 - custom_accuracy: 0.9136 - space_violation: 0.1122
+Epoch 23/100
+80000/80000 [==============================] - 5s 64us/sample - loss: 0.1946 - custom_accuracy: 0.9155 - space_violation: 0.1083
+Epoch 24/100
+80000/80000 [==============================] - 5s 64us/sample - loss: 0.1897 - custom_accuracy: 0.9179 - space_violation: 0.1044
+Epoch 25/100
+80000/80000 [==============================] - 5s 63us/sample - loss: 0.1870 - custom_accuracy: 0.9191 - space_violation: 0.1039
+Epoch 26/100
+80000/80000 [==============================] - 5s 63us/sample - loss: 0.1816 - custom_accuracy: 0.9220 - space_violation: 0.0996
+Epoch 27/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1792 - custom_accuracy: 0.9233 - space_violation: 0.0970
+Epoch 28/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1755 - custom_accuracy: 0.9255 - space_violation: 0.0939
+Epoch 29/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.1716 - custom_accuracy: 0.9267 - space_violation: 0.0921
+Epoch 30/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.1693 - custom_accuracy: 0.9286 - space_violation: 0.0892
+Epoch 31/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1663 - custom_accuracy: 0.9302 - space_violation: 0.0876
+Epoch 32/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1640 - custom_accuracy: 0.9313 - space_violation: 0.0854
+Epoch 33/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1609 - custom_accuracy: 0.9322 - space_violation: 0.0826
+Epoch 34/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.1570 - custom_accuracy: 0.9343 - space_violation: 0.0814
+Epoch 35/100
+80000/80000 [==============================] - 5s 63us/sample - loss: 0.1554 - custom_accuracy: 0.9349 - space_violation: 0.0792
+Epoch 36/100
+80000/80000 [==============================] - 5s 62us/sample - loss: 0.1534 - custom_accuracy: 0.9366 - space_violation: 0.0768
+Epoch 37/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1506 - custom_accuracy: 0.9376 - space_violation: 0.0766
+Epoch 38/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1481 - custom_accuracy: 0.9387 - space_violation: 0.0741
+Epoch 39/100
+80000/80000 [==============================] - 5s 62us/sample - loss: 0.1466 - custom_accuracy: 0.9395 - space_violation: 0.0736
+Epoch 40/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1452 - custom_accuracy: 0.9400 - space_violation: 0.0732
+Epoch 41/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.1431 - custom_accuracy: 0.9409 - space_violation: 0.0702
+Epoch 42/100
+80000/80000 [==============================] - 5s 68us/sample - loss: 0.1405 - custom_accuracy: 0.9421 - space_violation: 0.0701
+Epoch 43/100
+80000/80000 [==============================] - 5s 61us/sample - loss: 0.1390 - custom_accuracy: 0.9431 - space_violation: 0.0673
+Epoch 44/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1365 - custom_accuracy: 0.9438 - space_violation: 0.0676
+Epoch 45/100
+80000/80000 [==============================] - 7s 83us/sample - loss: 0.1357 - custom_accuracy: 0.9446 - space_violation: 0.0659
+Epoch 46/100
+80000/80000 [==============================] - 5s 65us/sample - loss: 0.1357 - custom_accuracy: 0.9447 - space_violation: 0.0655
+Epoch 47/100
+80000/80000 [==============================] - 5s 65us/sample - loss: 0.1328 - custom_accuracy: 0.9459 - space_violation: 0.0666
+Epoch 48/100
+80000/80000 [==============================] - 5s 68us/sample - loss: 0.1303 - custom_accuracy: 0.9470 - space_violation: 0.0628
+Epoch 49/100
+80000/80000 [==============================] - 5s 63us/sample - loss: 0.1291 - custom_accuracy: 0.9475 - space_violation: 0.0641
+Epoch 50/100
+80000/80000 [==============================] - 5s 62us/sample - loss: 0.1272 - custom_accuracy: 0.9481 - space_violation: 0.0611
+Epoch 51/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1258 - custom_accuracy: 0.9488 - space_violation: 0.0605
+Epoch 52/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1238 - custom_accuracy: 0.9498 - space_violation: 0.0606
+Epoch 53/100
+80000/80000 [==============================] - 5s 68us/sample - loss: 0.1222 - custom_accuracy: 0.9502 - space_violation: 0.0606
+Epoch 54/100
+80000/80000 [==============================] - 6s 78us/sample - loss: 0.1223 - custom_accuracy: 0.9504 - space_violation: 0.0600
+Epoch 55/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1202 - custom_accuracy: 0.9516 - space_violation: 0.0582
+Epoch 56/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1189 - custom_accuracy: 0.9520 - space_violation: 0.0584
+Epoch 57/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1159 - custom_accuracy: 0.9528 - space_violation: 0.0569
+Epoch 58/100
+80000/80000 [==============================] - 6s 69us/sample - loss: 0.1159 - custom_accuracy: 0.9533 - space_violation: 0.0558
+Epoch 59/100
+80000/80000 [==============================] - 5s 67us/sample - loss: 0.1150 - custom_accuracy: 0.9534 - space_violation: 0.0560
+Epoch 60/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1151 - custom_accuracy: 0.9538 - space_violation: 0.0548
+Epoch 61/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1127 - custom_accuracy: 0.9550 - space_violation: 0.0545
+Epoch 62/100
+80000/80000 [==============================] - 6s 72us/sample - loss: 0.1124 - custom_accuracy: 0.9554 - space_violation: 0.0540
+Epoch 63/100
+80000/80000 [==============================] - 6s 71us/sample - loss: 0.1104 - custom_accuracy: 0.9558 - space_violation: 0.0525
+Epoch 64/100
+80000/80000 [==============================] - 5s 62us/sample - loss: 0.1093 - custom_accuracy: 0.9563 - space_violation: 0.0528
+Epoch 65/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1087 - custom_accuracy: 0.9568 - space_violation: 0.0519
+Epoch 66/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.1072 - custom_accuracy: 0.9573 - space_violation: 0.0508
+Epoch 67/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.1047 - custom_accuracy: 0.9580 - space_violation: 0.0507
+Epoch 68/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.1028 - custom_accuracy: 0.9589 - space_violation: 0.0505
+Epoch 69/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.1030 - custom_accuracy: 0.9592 - space_violation: 0.0487
+Epoch 70/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.1011 - custom_accuracy: 0.9599 - space_violation: 0.0493
+Epoch 71/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.1015 - custom_accuracy: 0.9601 - space_violation: 0.0481
+Epoch 72/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.1015 - custom_accuracy: 0.9600 - space_violation: 0.0468
+Epoch 73/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0995 - custom_accuracy: 0.9610 - space_violation: 0.0473
+Epoch 74/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0985 - custom_accuracy: 0.9617 - space_violation: 0.0467
+Epoch 75/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0987 - custom_accuracy: 0.9608 - space_violation: 0.0474
+Epoch 76/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0986 - custom_accuracy: 0.9610 - space_violation: 0.0478
+Epoch 77/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0957 - custom_accuracy: 0.9623 - space_violation: 0.0464
+Epoch 78/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0960 - custom_accuracy: 0.9623 - space_violation: 0.0454
+Epoch 79/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0922 - custom_accuracy: 0.9636 - space_violation: 0.0448
+Epoch 80/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0927 - custom_accuracy: 0.9638 - space_violation: 0.0451
+Epoch 81/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0917 - custom_accuracy: 0.9641 - space_violation: 0.0439
+Epoch 82/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0930 - custom_accuracy: 0.9639 - space_violation: 0.0436
+Epoch 83/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0908 - custom_accuracy: 0.9647 - space_violation: 0.0428
+Epoch 84/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0901 - custom_accuracy: 0.9647 - space_violation: 0.0433
+Epoch 85/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0879 - custom_accuracy: 0.9663 - space_violation: 0.0411
+Epoch 86/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0866 - custom_accuracy: 0.9662 - space_violation: 0.0419
+Epoch 87/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0857 - custom_accuracy: 0.9668 - space_violation: 0.0403
+Epoch 88/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0859 - custom_accuracy: 0.9662 - space_violation: 0.0420
+Epoch 89/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0855 - custom_accuracy: 0.9670 - space_violation: 0.0410
+Epoch 90/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0865 - custom_accuracy: 0.9665 - space_violation: 0.0411
+Epoch 91/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0841 - custom_accuracy: 0.9675 - space_violation: 0.0404
+Epoch 92/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0837 - custom_accuracy: 0.9676 - space_violation: 0.0405
+Epoch 93/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0834 - custom_accuracy: 0.9678 - space_violation: 0.0407
+Epoch 94/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0831 - custom_accuracy: 0.9679 - space_violation: 0.0397
+Epoch 95/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0834 - custom_accuracy: 0.9678 - space_violation: 0.0398
+Epoch 96/100
+80000/80000 [==============================] - 5s 58us/sample - loss: 0.0804 - custom_accuracy: 0.9692 - space_violation: 0.0380
+Epoch 97/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0801 - custom_accuracy: 0.9694 - space_violation: 0.0381
+Epoch 98/100
+80000/80000 [==============================] - 5s 59us/sample - loss: 0.0795 - custom_accuracy: 0.9697 - space_violation: 0.0388
+Epoch 99/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.0801 - custom_accuracy: 0.9693 - space_violation: 0.0377
+Epoch 100/100
+80000/80000 [==============================] - 5s 60us/sample - loss: 0.0796 - custom_accuracy: 0.9693 - space_violation: 0.0377
+
+Model results(Train/Test):
+Loss:               0.09 / 0.18
+Binary accuracy:    0.97 / 0.94
+Space violation:    0.02 / 0.04
+
+Weights: [34 16 43 23 35] Values: [18 93 23 29 73] Capacity: 57 Bruteforce Picks: [0, 1, 0, 0, 1] Max Value (Optimal): 166
+Model Prediction: [0. 1. 0. 0. 1.] Max Value (Model): 166.0
+Weights: [14 15 33 15 31] Values: [12 84 15 27 50] Capacity: 58 Bruteforce Picks: [0, 1, 0, 0, 1] Max Value (Optimal): 134
+Model Prediction: [0. 1. 0. 0. 1.] Max Value (Model): 134.0
+Weights: [12 15 11 42 42] Values: [87 34 73 45 57] Capacity: 55 Bruteforce Picks: [1, 1, 1, 0, 0] Max Value (Optimal): 194
+Model Prediction: [1. 1. 1. 0. 0.] Max Value (Model): 194.0
+Weights: [41 31 20 26 29] Values: [94 89 71 35 19] Capacity: 40 Bruteforce Picks: [0, 1, 0, 0, 0] Max Value (Optimal): 89
+Model Prediction: [1. 0. 0. 0. 0.] Max Value (Model): 94.0
+Weights: [29 29 42 39 13] Values: [69 93 86 29 87] Capacity: 40 Bruteforce Picks: [0, 1, 0, 0, 0] Max Value (Optimal): 93
+Model Prediction: [0. 1. 0. 0. 0.] Max Value (Model): 93.0
+Weights: [17 42 32 11 19] Values: [75 95 39 24 63] Capacity: 49 Bruteforce Picks: [1, 0, 0, 1, 1] Max Value (Optimal): 162
+Model Prediction: [1. 0. 0. 1. 1.] Max Value (Model): 162.0
+Weights: [19 13 32 35 26] Values: [46 76 62 55 69] Capacity: 53 Bruteforce Picks: [0, 1, 0, 0, 1] Max Value (Optimal): 145
+Model Prediction: [0. 1. 0. 0. 1.] Max Value (Model): 145.0
+Weights: [39 18 41 14 16] Values: [44 90 75 51 21] Capacity: 46 Bruteforce Picks: [0, 1, 0, 1, 0] Max Value (Optimal): 141
+Model Prediction: [0. 1. 0. 1. 0.] Max Value (Model): 141.0
+Weights: [34 34 38 40 19] Values: [29 55 68 86 95] Capacity: 41 Bruteforce Picks: [0, 0, 0, 0, 1] Max Value (Optimal): 95
+Model Prediction: [0. 0. 0. 0. 1.] Max Value (Model): 95.0
+Weights: [31 23 31 42 34] Values: [83 12 10 27 85] Capacity: 46 Bruteforce Picks: [0, 0, 0, 0, 1] Max Value (Optimal): 85
+Model Prediction: [0. 0. 0. 0. 1.] Max Value (Model): 85.0
+Weights: [29 41 23 25 40] Values: [79 32 23 45 52] Capacity: 67 Bruteforce Picks: [1, 0, 0, 1, 0] Max Value (Optimal): 124
+Model Prediction: [1. 0. 0. 1. 0.] Max Value (Model): 124.0
+Weights: [16 28 38 23 13] Values: [30 96 16 76 56] Capacity: 67 Bruteforce Picks: [0, 1, 0, 1, 1] Max Value (Optimal): 228
+Model Prediction: [0. 1. 0. 1. 1.] Max Value (Model): 228.0
+Weights: [24 14 40 37 29] Values: [19 10 33 38 85] Capacity: 60 Bruteforce Picks: [1, 0, 0, 0, 1] Max Value (Optimal): 104
+Model Prediction: [1. 0. 0. 0. 1.] Max Value (Model): 104.0
+Weights: [37 42 23 43 43] Values: [75 91 10 21 18] Capacity: 47 Bruteforce Picks: [0, 1, 0, 0, 0] Max Value (Optimal): 91
+Model Prediction: [0. 1. 0. 0. 0.] Max Value (Model): 91.0
+Weights: [16 43 10 23 12] Values: [22 36 26 54 97] Capacity: 49 Bruteforce Picks: [0, 0, 1, 1, 1] Max Value (Optimal): 177
+Model Prediction: [0. 0. 1. 1. 1.] Max Value (Model): 177.0
+Weights: [10 26 43 15 35] Values: [72 64 36 49 15] Capacity: 54 Bruteforce Picks: [1, 1, 0, 1, 0] Max Value (Optimal): 185
+Model Prediction: [1. 1. 0. 1. 0.] Max Value (Model): 185.0
+Weights: [33 31 38 42 27] Values: [33 23 57 62 72] Capacity: 47 Bruteforce Picks: [0, 0, 0, 0, 1] Max Value (Optimal): 72
+Model Prediction: [0. 0. 0. 0. 1.] Max Value (Model): 72.0
+Weights: [18 16 38 18 14] Values: [47 14 84 93 38] Capacity: 51 Bruteforce Picks: [1, 0, 0, 1, 1] Max Value (Optimal): 178
+Model Prediction: [1. 0. 0. 1. 1.] Max Value (Model): 178.0
+Weights: [17 30 16 15 31] Values: [28 79 16 39 39] Capacity: 57 Bruteforce Picks: [0, 1, 0, 1, 0] Max Value (Optimal): 118
+Model Prediction: [0. 1. 0. 1. 0.] Max Value (Model): 118.0
+Weights: [12 31 38 10 40] Values: [28 58 54 10 36] Capacity: 55 Bruteforce Picks: [1, 1, 0, 1, 0] Max Value (Optimal): 96
+Model Prediction: [1. 1. 0. 1. 0.] Max Value (Model): 96.0
+Weights: [40 21 35 44 30] Values: [30 79 38 61 56] Capacity: 41 Bruteforce Picks: [0, 1, 0, 0, 0] Max Value (Optimal): 79
+Model Prediction: [0. 1. 0. 0. 0.] Max Value (Model): 79.0
+Weights: [23 11 34 15 40] Values: [44 94 85 12 38] Capacity: 42 Bruteforce Picks: [1, 1, 0, 0, 0] Max Value (Optimal): 138
+Model Prediction: [1. 1. 0. 0. 0.] Max Value (Model): 138.0
+Weights: [11 38 23 33 27] Values: [64 50 51 52 96] Capacity: 63 Bruteforce Picks: [1, 0, 1, 0, 1] Max Value (Optimal): 211
+Model Prediction: [1. 0. 0. 0. 1.] Max Value (Model): 160.0
+Weights: [23 29 35 31 33] Values: [49 27 20 71 88] Capacity: 65 Bruteforce Picks: [0, 0, 0, 1, 1] Max Value (Optimal): 159
+Model Prediction: [0. 0. 0. 1. 1.] Max Value (Model): 159.0
+Weights: [21 38 14 39 21] Values: [38 56 30 35 90] Capacity: 60 Bruteforce Picks: [1, 0, 1, 0, 1] Max Value (Optimal): 158
+Model Prediction: [1. 0. 1. 0. 1.] Max Value (Model): 158.0
+Weights: [23 18 13 28 34] Values: [96 31 92 67 73] Capacity: 52 Bruteforce Picks: [1, 0, 1, 0, 0] Max Value (Optimal): 188
+Model Prediction: [1. 0. 1. 0. 0.] Max Value (Model): 188.0
+Weights: [36 21 14 10 36] Values: [68 61 47 40 40] Capacity: 54 Bruteforce Picks: [0, 1, 1, 1, 0] Max Value (Optimal): 148
+Model Prediction: [0. 1. 1. 1. 0.] Max Value (Model): 148.0
+Weights: [40 22 12 17 41] Values: [88 64 49 60 86] Capacity: 58 Bruteforce Picks: [0, 1, 1, 1, 0] Max Value (Optimal): 173
+Model Prediction: [0. 1. 1. 1. 0.] Max Value (Model): 173.0
+Weights: [41 40 25 29 30] Values: [23 13 89 85 85] Capacity: 67 Bruteforce Picks: [0, 0, 1, 0, 1] Max Value (Optimal): 174
+Model Prediction: [0. 0. 1. 0. 1.] Max Value (Model): 174.0
+Weights: [44 28 19 25 17] Values: [92 10 24 53 16] Capacity: 66 Bruteforce Picks: [1, 0, 1, 0, 0] Max Value (Optimal): 116
+Model Prediction: [1. 0. 1. 0. 0.] Max Value (Model): 116.0
+Weights: [17 21 39 22 40] Values: [76 24 96 63 32] Capacity: 66 Bruteforce Picks: [1, 0, 1, 0, 0] Max Value (Optimal): 172
+Model Prediction: [1. 0. 1. 0. 0.] Max Value (Model): 172.0
+Weights: [41 37 43 31 20] Values: [68 15 86 32 75] Capacity: 45 Bruteforce Picks: [0, 0, 1, 0, 0] Max Value (Optimal): 86
+Model Prediction: [0. 0. 1. 0. 0.] Max Value (Model): 86.0
+Weights: [27 25 30 19 24] Values: [84 57 56 62 61] Capacity: 40 Bruteforce Picks: [1, 0, 0, 0, 0] Max Value (Optimal): 84
+Model Prediction: [1. 0. 0. 0. 0.] Max Value (Model): 84.0
+Weights: [41 31 23 13 43] Values: [55 84 79 21 21] Capacity: 44 Bruteforce Picks: [0, 1, 0, 1, 0] Max Value (Optimal): 105
+Model Prediction: [0. 1. 0. 1. 0.] Max Value (Model): 105.0
+Weights: [35 29 40 36 32] Values: [60 59 47 16 76] Capacity: 58 Bruteforce Picks: [0, 0, 0, 0, 1] Max Value (Optimal): 76
+Model Prediction: [0. 0. 0. 0. 1.] Max Value (Model): 76.0
+Weights: [21 28 44 16 17] Values: [22 66 41 16 86] Capacity: 52 Bruteforce Picks: [0, 1, 0, 0, 1] Max Value (Optimal): 152
+Model Prediction: [0. 1. 0. 0. 1.] Max Value (Model): 152.0
+Weights: [33 32 29 40 40] Values: [48 10 75 38 71] Capacity: 50 Bruteforce Picks: [0, 0, 1, 0, 0] Max Value (Optimal): 75
+Model Prediction: [0. 0. 1. 0. 0.] Max Value (Model): 75.0
+Weights: [36 10 25 19 34] Values: [51 93 66 64 69] Capacity: 66 Bruteforce Picks: [0, 1, 0, 1, 1] Max Value (Optimal): 226
+Model Prediction: [0. 1. 0. 1. 1.] Max Value (Model): 226.0
+Weights: [21 23 10 17 24] Values: [49 62 40 93 36] Capacity: 53 Bruteforce Picks: [0, 1, 1, 1, 0] Max Value (Optimal): 195
+Model Prediction: [0. 1. 1. 1. 0.] Max Value (Model): 195.0
+Weights: [24 30 24 17 10] Values: [84 69 86 84 52] Capacity: 54 Bruteforce Picks: [0, 0, 1, 1, 1] Max Value (Optimal): 222
+Model Prediction: [0. 0. 1. 1. 1.] Max Value (Model): 222.0
+Weights: [25 10 16 19 41] Values: [98 65 78 78 50] Capacity: 65 Bruteforce Picks: [1, 0, 1, 1, 0] Max Value (Optimal): 254
+Model Prediction: [1. 0. 1. 1. 0.] Max Value (Model): 254.0
+Weights: [22 10 14 33 26] Values: [66 46 17 85 68] Capacity: 64 Bruteforce Picks: [1, 1, 0, 0, 1] Max Value (Optimal): 180
+Model Prediction: [0. 0. 0. 1. 1.] Max Value (Model): 153.0
+Weights: [12 13 31 43 13] Values: [42 47 16 33 44] Capacity: 53 Bruteforce Picks: [1, 1, 0, 0, 1] Max Value (Optimal): 133
+Model Prediction: [1. 1. 0. 0. 1.] Max Value (Model): 133.0
+Weights: [44 35 19 22 17] Values: [75 37 32 17 76] Capacity: 44 Bruteforce Picks: [0, 0, 1, 0, 1] Max Value (Optimal): 108
+Model Prediction: [0. 0. 1. 0. 1.] Max Value (Model): 108.0
+Weights: [28 40 18 27 23] Values: [63 76 13 97 27] Capacity: 42 Bruteforce Picks: [0, 0, 0, 1, 0] Max Value (Optimal): 97
+Model Prediction: [0. 0. 0. 1. 0.] Max Value (Model): 97.0
+Weights: [34 40 38 26 38] Values: [63 76 11 96 88] Capacity: 41 Bruteforce Picks: [0, 0, 0, 1, 0] Max Value (Optimal): 96
+Model Prediction: [0. 0. 0. 1. 0.] Max Value (Model): 96.0
+Weights: [42 26 38 17 20] Values: [48 51 35 40 21] Capacity: 69 Bruteforce Picks: [0, 1, 0, 1, 1] Max Value (Optimal): 112
+Model Prediction: [0. 1. 0. 1. 1.] Max Value (Model): 112.0
+Weights: [44 35 27 14 40] Values: [69 49 24 68 83] Capacity: 64 Bruteforce Picks: [0, 0, 0, 1, 1] Max Value (Optimal): 151
+Model Prediction: [0. 0. 0. 1. 1.] Max Value (Model): 151.0
+Weights: [18 19 28 30 36] Values: [44 50 17 17 66] Capacity: 55 Bruteforce Picks: [0, 1, 0, 0, 1] Max Value (Optimal): 116
+Model Prediction: [1. 0. 0. 0. 1.] Max Value (Model): 110.0
+Weights: [33 33 13 35 18] Values: [34 47 27 22 32] Capacity: 63 Bruteforce Picks: [0, 1, 0, 0, 1] Max Value (Optimal): 79
+Model Prediction: [0. 1. 1. 0. 1.] Max Value (Model): 106.0
+
+Process finished with exit code 0
